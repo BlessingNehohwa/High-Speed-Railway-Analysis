@@ -1,6 +1,34 @@
 # High-Speed-Railway-Analysis
 
-In this project, you’ll use Python to analyze a real-world dataset on high-speed railway operations. You will
-use list comprehensions to load and concatenate daily railway operation datasets
-use for loops and if/else control flow to clean and prep the data
-analyze the impact of holidays, distance, and weather on railway delays
+# 🚄 High-Speed Railway Data Analysis (Python Project)
+
+## 📌 Project Overview
+This project uses **Python** to analyze a real-world dataset on high-speed railway operations. The goal is to explore how different factors such as holidays, travel distance, and weather conditions impact railway delays.
+
+---
+
+## 🎯 Objectives
+- Load and combine multiple daily railway datasets
+- Clean and prepare raw operational data
+- Analyze delay patterns and influencing factors
+- Generate insights from real-world transportation data
+
+---
+
+## 🛠️ Technologies Used
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib / Seaborn (optional for visualization)
+
+---
+
+## 📂 Key Features
+
+### 🔹 Data Loading & Combination
+- Uses **list comprehensions** to efficiently load multiple daily datasets
+- Concatenates datasets into a single unified DataFrame
+
+```python
+import pandas as pd
+import glob
